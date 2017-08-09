@@ -2,8 +2,10 @@
 Exercise #1
 Initialize an empty array below in the variable numbers.
 */
-var numbers;
-console.log('hello world');
+
+var numbers = [];
+console.log(numbers);
+
 
 /*
 Exercise #2
@@ -11,7 +13,8 @@ Using the loop provided for you below, use an array's push method to insert the 
 */
 
 for(var i=0;i<10;i++){
-    //use the array push() method here.
+
+console.log('numbers');    //use the array push() method here.
 }
 
 
