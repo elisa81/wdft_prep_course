@@ -3,7 +3,7 @@ Exercise #1
 Initialize an empty array below in the variable numbers.
 */
 
-var numbers = [];
+var numbers = new Array();
 console.log(numbers);
 
 
@@ -14,7 +14,8 @@ Using the loop provided for you below, use an array's push method to insert the 
 
 for(var i=0;i<10;i++){
 
-console.log('numbers');    //use the array push() method here.
+    numbers.push(i);
+console.log(numbers);    //use the array push() method here.
 }
 
 
@@ -24,6 +25,8 @@ Test that you used the array push method correctly by printing the sum of the va
 The outputted value should be 9.
 */
 
+sum1 = (numbers[3] + numbers[6]);
+console.log(sum1);
 
 
 
@@ -31,13 +34,13 @@ The outputted value should be 9.
 Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
-
+for (var i = 0; i <10; i ++) 
 var sum = 0;
-/* remove this line to uncomment the code block
 while(numbers.length != 0){
-    //write pop function here
+    var lastNum = numbers.pop();
+    var sum = (sum + lastNum);
 }
-remove this line to uncomment the code block */
+
 console.log(sum);
 
 
