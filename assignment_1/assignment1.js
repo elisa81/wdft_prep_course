@@ -14,9 +14,9 @@ Using the loop provided for you below, use an array's push method to insert the 
 
 for(var i=0;i<10;i++){
 
-    numbers.push(i);
+    numbers.push(i);}
 console.log(numbers);    //use the array push() method here.
-}
+
 
 
 /*
@@ -48,12 +48,16 @@ console.log(sum);
 Exercise #5
 Create an empty object and assign it the variable car below.
 */
-var car;
+var car = {};
 
 /*
 Exercise #5
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputing property make to the console. You should see the value "black" printed out.
 */
+
+var car = {color:"black"};
+
+console.log(car.color);
 
 
 
